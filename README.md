@@ -55,6 +55,7 @@ A custom table named `u_institution_details` is created in ServiceNow.
 ## ACL Implementation
 
 ### 1. READ ACL
+<img width="1366" height="506" alt="4 read_acl" src="https://github.com/user-attachments/assets/25274dd2-6814-45f4-a83f-fba1b4c06d8c" />
 
 A record-level READ ACL is created for the `u_institution_details` table.
 
@@ -80,6 +81,8 @@ The script allows administrators full access and allows users with the required 
 ```
 
 ### 2. CREATE ACL
+<img width="1352" height="504" alt="5 create_acl" src="https://github.com/user-attachments/assets/c2580959-8162-4118-94cc-57e0fc6cc13e" />
+
 
 A record-level CREATE ACL is created for the `u_institution_details` table.
 
@@ -87,6 +90,7 @@ A record-level CREATE ACL is created for the `u_institution_details` table.
 - Users with the required role can access the **New** button and create records.
 
 ### 3. WRITE ACL
+<img width="1363" height="486" alt="6 write_acl" src="https://github.com/user-attachments/assets/47f16646-7c03-4693-a44e-b9b787c1535e" />
 
 A record-level WRITE ACL is created for the `u_institution_details` table.
 
@@ -94,6 +98,8 @@ A record-level WRITE ACL is created for the `u_institution_details` table.
 - Users with the required role can view and edit the permitted records.
 
 ### 4. DELETE ACL
+<img width="1358" height="490" alt="7  delete_acl" src="https://github.com/user-attachments/assets/cd1ab603-eecb-40be-8942-c627d800fa1b" />
+
 
 A record-level DELETE ACL is created for the `u_institution_details` table.
 
@@ -111,6 +117,7 @@ A record-level DELETE ACL is created for the `u_institution_details` table.
 | `bb1` + `bb2` + `bb3` + `bb4` | Read, Create, Write, Delete |
 
 ## Verification
+<img width="1366" height="502" alt="8 verification" src="https://github.com/user-attachments/assets/f8ed748f-fd48-4065-a972-1dd5e3775ed9" />
 
 The ACLs are tested by impersonating different users and accessing the Student Records list. The following access conditions are verified:
 
